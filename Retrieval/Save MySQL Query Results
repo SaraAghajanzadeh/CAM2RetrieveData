@@ -1,0 +1,6 @@
+Ubuntu
+Save MySQL query results into text file
+
+Use this command:
+mysql -uroot -p -e "select * from database_name.table_name" > filename.txt
+Enter password and file will be saved.
